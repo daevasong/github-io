@@ -27,7 +27,7 @@
     ycPickerView.arrPickerData = arrData;
     [ycPickerView.pickerView selectRow:3 inComponent:0 animated:YES]; //pickerview默认选中行
     [self.view addSubview:ycPickerView];
-     
+    
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 100, self.view.frame.size.width-20, 35)];
     [btn setBackgroundColor:[UIColor orangeColor]];
     [btn setTintColor:[UIColor whiteColor]];
